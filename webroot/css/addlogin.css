@@ -1,0 +1,23 @@
+.add {
+    margin: 37px 24px 72px;
+}
+.btnadd {
+    width: 212px;
+    background-color: #070b4a;
+}
+.submit {
+    text-align: center;
+}
+.btnalinha {
+    text-align: center;
+}
+.message {
+    background-color: aqua;
+}
+.contadd{
+    margin: 33px auto;
+}
+.text-dark a{
+    color: #070b4a;
+font-weight: bold;
+}

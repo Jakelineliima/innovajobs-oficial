@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+}
+.vw-tooltip__item a{
+  color: #070b4a;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,232 @@
+.btnconta {
+  height: 40px;
+  width: 130px;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  color: #fff;
+  border-radius: 20px;
+  background: #070b4a;
+  font-size: 14px;
+}
+
+i {
+  padding: 20px auto;
+}
+
+b {
+  color: #070b4a;
+}
+
+hr {
+  margin-top: 4px;
+  height: 0px;
+}
+
+.sair {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21px auto;
+}
+
+.sair a {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit {
+  height: 54px;
+}
+
+.dropdown-item {
+  font-size: 14px;
+  color: #070b4a;
+}
+
+.dropdown-item:hover {
+  background-color: #8183a2;
+  width: 146px;
+  color: #fff;
+}
+
+.btnperso:hover {
+  color: #fff;
+  background-color: #8183a2;
+}
+
+.btns {
+  background: #070b4a;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  align-self: center;
+  border-radius: 30px;
+  border-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: -11px auto;
+}
+
+.dropdown-item {
+  font-size: 13px;
+}
+
+.icon {
+  color: #070b4a;
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+  .menuu-burguer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1102px) {
+  .menuu-burguer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .nav {
+    display: none;
+  }
+  .text {
+    padding: 20px 0;
+  }
+  .redessociais {
+    display: block;
+    margin: 29px 65px 29px;
+  }
+  .icones {
+    padding: 20px 0;
+  }
+  .menuu-burguer>button>a {
+    text-decoration: none;
+    color: white;
+  }
+  #checkbox-menu {
+    position: absolute;
+    opacity: 0;
+  }
+  .label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+    margin: 0 15px 0 19px;
+  }
+  button ul {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #070b4a;
+    transition: 0.25s ease-in-out;
+  }
+  label span:nth-child(1) {
+    top: 0;
+  }
+  label span:nth-child(2) {
+    top: 8px;
+  }
+  label span:nth-child(3) {
+    top: 16px;
+  }
+  #checkbox-menu:checked+label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  #checkbox-menu:checked+label span:nth-child(2) {
+    opacity: 0;
+  }
+  #checkbox-menu:checked+label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .dropdown-contentt {
+    margin-top: 44px;
+    background-color: #070b4a;
+    position: relative;
+    display: none;
+    right: 233px;
+    min-width: 260px;
+    box-shadow: 0px 4px 16px 0px #383a645c;
+    padding: 12px 5px;
+    z-index: 999;
+    text-align: center;
+    font-size: 16px;
+  }
+  .dropdown-contentt>a {
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: block;
+    border-radius: 28px;
+  }
+  .dropdown-contentt>a>b {
+    font-size: 15px;
+  }
+  .dropdown-contentt a:hover {
+    background-color: #8183a2;
+    color: white;
+    width: 100%;
+  }
+  #checkbox-menu:checked+label .dropdown-contentt {
+    display: block;
+  }
+  .translogmenu {
+    margin: 10px auto;
+    text-align: center;
+  }
+}
+
+/*Tradução*/
+
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-menu-value:hover {
+  text-decoration: none !important;
+}
+
+.goog-te-gadget-icon {
+  background-image: url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;
+  background-position: 0 0 !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.menu-burgueer {
+  display: none;
+}
+
+/* menu conta */
+
+.btnconta {
+  height: 40px;
+  width: 130px;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+

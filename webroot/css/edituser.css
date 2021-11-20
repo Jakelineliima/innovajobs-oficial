@@ -1,0 +1,28 @@
+input {
+  height: 48px;
+  width: 100%;
+  padding: 17px;
+}
+
+label {
+  font-weight: bold;
+  color: #070b4a;
+}
+
+button {
+  width: 122px;
+  height: 40px;
+  border: transparent;
+  background-color: #070b4a;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.senha {
+  margin: 14px auto;
+}
+
+h5{
+  color: #070b4a;
+  text-align: center;
+}

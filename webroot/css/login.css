@@ -1,0 +1,39 @@
+.input {
+    width: 100%;
+}
+
+.btn {
+    background: #070b4a;
+    font-weight: bold;
+}
+
+.textadd {
+    margin: 15px 0 59px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.container {
+    width: 62%;
+}
+
+.login {
+    margin: 61px auto;
+}
+
+.alogin {
+    color: #070b4a;
+    font-weight: bold;
+}
+.alogin:hover{
+    color: #494c7a;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .login {
+        padding: 23px 18px;
+    }
+}

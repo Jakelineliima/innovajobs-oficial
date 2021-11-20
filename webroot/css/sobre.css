@@ -1,0 +1,20 @@
+.sessionsob{
+  text-align: center;
+}
+.psob{
+  text-align: justify;
+}
+.sobre{
+  margin: 34px auto;
+}
+.imgsob{
+  margin: 50px auto;
+  width: 350px;
+}
+
+@media screen and (max-width: 800px) {
+  .sessionsob {
+    padding: 12px 10px 0px 8px;
+  }
+ 
+}

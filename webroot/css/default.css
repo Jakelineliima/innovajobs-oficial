@@ -1,0 +1,206 @@
+.goog-te-gadget-simple {
+  background-color: #676cbe3d;
+  border: 0px solid;
+  border-radius: 22px;
+  text-decoration: transparent;
+  padding: 5px;
+}
+
+.redessociais {
+  display: flex;
+  justify-content: space-around;
+  margin: 65px auto;
+}
+
+.redessociais a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.textos {
+  padding: 20px;
+}
+
+footer {
+  background-color: #070b4a;
+}
+
+p {
+  color: #fff;
+}
+
+.translateg{
+  margin: 0 27px 0 -17px;
+}
+
+/* Novo css */
+
+.logo {
+  width: 178px;
+}
+
+.text {
+  padding: 20px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px auto;
+  align-items: center;
+  box-shadow: 0px 3px 7px -6px #070b4a;
+  /* position: fixed; */
+}
+
+.menu-link {
+  border: none;
+  border-radius: 20px;
+  padding: 0px 25px;
+  margin-bottom: 0;
+  background-color: #494c7a;
+  text-align: center;
+}
+
+.menu-link>* {
+  color: #fff;
+}
+
+.nav-link {
+  color: #070b4a;
+}
+
+@media only screen and (max-width: 1500px) {
+  .menu-burguer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1102px) {
+  .nav {
+    display: none;
+  }
+  .menu-burguer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto 20px;
+  }
+  .logo {
+    width: 178px;
+  }
+  .text {
+    padding: 20px 0;
+  }
+  .redessociais {
+    display: block;
+    margin: 29px 65px 29px;
+  }
+  .icones {
+    padding: 20px 0;
+  }
+
+
+  .menu-burguer>button>a {
+    text-decoration: none;
+    color: white;
+  }
+  #checkbox-menu {
+    position: absolute;
+    opacity: 0;
+  }
+  .label {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    height: 22px;
+    width: 30px;
+    margin: 0 15px 0 19px;
+  }
+  .label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #070b4a;
+    transition: 0.25s ease-in-out;
+  }
+  label span:nth-child(1) {
+    top: 0;
+  }
+  label span:nth-child(2) {
+    top: 8px;
+  }
+  label span:nth-child(3) {
+    top: 16px;
+  }
+  #checkbox-menu:checked+label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+  }
+  #checkbox-menu:checked+label span:nth-child(2) {
+    opacity: 0;
+  }
+  #checkbox-menu:checked+label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
+  }
+  .dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    margin-top: 30px;
+    background-color: #070b4a;
+    position: absolute;
+    display: none;
+    right: 0;
+    min-width: 232px;
+    box-shadow: 0px 4px 16px 0px #383a645c;
+    padding: 12px 5px;
+    z-index: 999;
+    text-align: center;
+    font-size: 16px;
+  }
+  .dropdown-content>a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content>a>b {
+    font-size: 15px;
+  }
+  .dropdown-content a:hover {
+    background-color: #8183a2;
+    color: white;
+    width: 100%;
+    border-radius: 43px;
+  }
+  #checkbox-menu:checked+label .dropdown-content {
+    display: block;
+  }
+}
+
+/* Tradução */
+
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-menu-value:hover {
+  text-decoration: none !important;
+}
+
+.goog-te-gadget-icon {
+  background-image: url(//gtranslate.net/flags/gt_logo_19x19.gif) !important;
+  background-position: 0 0 !important;
+}
+
+body {
+  top: 0 !important;
+}
