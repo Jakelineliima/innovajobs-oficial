@@ -56,7 +56,7 @@ return [
         'dir' => 'src',
         'webroot' => 'webroot',
         'wwwRoot' => WWW_ROOT,
-        'baseUrl' => env('SCRIPT_NAME'),  //linha que descomentei
+        //'baseUrl' => env('SCRIPT_NAME'),  //linha que descomentei
         'fullBaseUrl' => false,
         'imageBaseUrl' => 'img/',
         'cssBaseUrl' => 'css/',
