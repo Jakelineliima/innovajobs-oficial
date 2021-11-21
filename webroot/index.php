@@ -29,9 +29,7 @@ if (PHP_SAPI === 'cli-server') {
         return false;
     }
 }
-// if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-//     define('CAKE_CORE_INCLUDE_PATH', ROOT);
-// }
+
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 use App\Application;
@@ -42,3 +40,5 @@ $server = new Server(new Application(dirname(__DIR__) . '/config'));
 
 // Run the request/response through the application and emit the response.
 $server->emit($server->run());
+
+require 'webroot' . DIRECTORY_SEPARATOR . 'index.php';
