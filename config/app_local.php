@@ -36,7 +36,7 @@ return [
      */
     'Datasources' => [
         'default' => [
-            'host' => 'innovajobs.coqay08t5eri.us-east-2.rds.amazonaws.com',
+            'host' => 'localhost',
             /*
              * CakePHP will use the default DB port based on the driver selected
              * MySQL on MAMP uses port 8889, MAMP users will want to uncomment
@@ -44,10 +44,10 @@ return [
              */
             //'port' => 'non_standard_port_number',
 
-            'username' => 'jakelineliima',
-            'password' => '0220831911031',
+            'username' => 'root',
+            'password' => '',
 
-            'database' => 'innovajobsdb',
+            'database' => 'innovajobs-db',
             /*
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.
