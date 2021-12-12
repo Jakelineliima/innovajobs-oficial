@@ -5,8 +5,8 @@ O Projeto Innova Jobs é uma agência de empregos fictícia que visa oferecer va
 **Banco de dados mysql**
 
 
-Para rodar em sua maquina siga as etapas disponibilizada no site oficial do cakephp
-Arquivo SQl esta disponivel nos arquivos do projeto.
+Para rodar em sua maquina siga as etapas disponibilizada no site oficial do cakephp.
+Arquivo SQl esta disponivel nos arquivos raiz do projeto.
 
 
   
