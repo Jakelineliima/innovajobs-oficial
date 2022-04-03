@@ -1,1 +1,1 @@
-web: composer start
+web: npm start
