@@ -44,6 +44,7 @@
             "@test",
             "@cs-check"
         ],
+        "start": "bin/cake server",
         "cs-check": "phpcs --colors -p  src/ tests/",
         "cs-fix": "phpcbf --colors -p src/ tests/",
         "stan": "phpstan analyse",
